@@ -33,7 +33,6 @@ target_link_libraries(${PROJECT_NAME}
     PRIVATE Python3::Python
 )
 
-
 if(APPLE)
     set_target_properties(${PROJECT_NAME}
         PROPERTIES
